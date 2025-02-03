@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencias de Node.js
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Directorios del IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Entorno
+.env
+.env.local
+.env.*.local
+
+# Configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.swp
+*.bak
+*.pid
+
+# Otros
+coverage/
+*.cover
+*.lcov
+
+# Archivos de configuración personal
+*.iml
+*.sublime*
+*.code-workspace
