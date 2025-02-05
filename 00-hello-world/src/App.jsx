@@ -1,7 +1,6 @@
 import { TwitterFollowCard } from "./TwitterFollowCard";
 import './TwitterFollowCard.css';
 
-
 export function App() {
 
     return (
