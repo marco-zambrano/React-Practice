@@ -1,34 +1,30 @@
 import { TwitterFollowCard } from "./TwitterFollowCard";
-import './App.css';
+import './TwitterFollowCard.css';
+
 
 export function App() {
-    const formatUserName = (userName) => `@${userName}`;
 
     return (
         <section className="app">
             <TwitterFollowCard  
-            formatUserName={formatUserName} 
             userName={'leo'} 
             name={'Leonel'} 
-            isFollowing />
+            initialIsFollowing />
 
             <TwitterFollowCard  
-            formatUserName={formatUserName} 
             userName={'pepsi'} 
             name={'Pepsi Company'} 
-            isFollowing />
+            initialIsFollowing />
 
             <TwitterFollowCard  
-            formatUserName={formatUserName} 
             userName={'loemargett'} 
             name={'Leo Margett'} 
-            isFollowing={false} />
+            initialIsFollowing={false} />
 
             <TwitterFollowCard  
-            formatUserName={formatUserName} 
             userName={'curry'} 
             name={'Stephen Curry'} 
-            isFollowing />
+            initialIsFollowing />
         </section>
     )
 }
